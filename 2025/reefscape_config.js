@@ -2,9 +2,9 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2025",
-  "page_title": "REEFSCAPE",
+  "page_title": "Pool Table Test",
   "checkboxAs": "10",
-  "prematch": [
+  "PRE-MATCH": [
     { "name": "Scouter Initials",
       "code": "s",
       "type": "scouter",
@@ -58,7 +58,7 @@ var config_data = `
     { "name": "Auto Start Position",
       "code": "as",
       "type": "clickable_image",
-      "filename": "2025/half_field.png",
+      "filename": "American-style_pool_table_diagram_(empty).png",
       "clickRestriction": "one",
       "dimensions": "6 6",
       "allowableResponses": "1 7 13 19 25 31",
@@ -70,26 +70,34 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": "Coral L1",
+    { "name": "Pocket 1",
       "code": "ac1",
       "type": "counter"
     },
-    { "name": "Coral L2",
+    { "name": "Pocket 2",
       "code": "ac2",
       "type": "counter"
     },
-    { "name": "Coral L3",
+    { "name": "Pocket 3",
       "code": "ac3",
       "type": "counter"
     },
-    { "name": "Coral L4",
+    { "name": "Pocket 4",
       "code": "ac4",
+      "type": "counter" 
+    },
+    { "name": "Pocket 5",
+      "code": "ac5",
+      "type": "counter"
+    },
+    { "name": "Pocket 6",
+      "code": "ac6",
       "type": "counter"
     },
     { "name": "Auto Scoring Position",
       "code": "asp",
       "type": "clickable_image",
-      "filename": "2025/reef.png",
+      "filename": "American-style_pool_table_diagram_(empty).png",
       "dimensions": "6 6",
       "allowableResponses": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 17 18 19 20 23 24 25 26 27 28 29 30 31 32 33 34 35 36",
       "shape": "circle 5 black red true"
@@ -234,7 +242,7 @@ var config_data = `
       "code": "co",
       "type": "text",
       "size": 15,
-      "maxSize": 55
+      "maxSize": 200
     }
   ]
 }`;
