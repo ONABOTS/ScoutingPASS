@@ -4,7 +4,7 @@ var config_data = `
   "title": "Scouting PASS 2025",
   "page_title": "Pool Table Test",
   "checkboxAs": "10",
-  "PRE-MATCH": [
+  "prematch": [
     { "name": "Scouter Initials",
       "code": "s",
       "type": "scouter",
