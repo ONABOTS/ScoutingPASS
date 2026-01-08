@@ -58,7 +58,7 @@ var config_data = `
     { "name": "Auto Start Position",
       "code": "as",
       "type": "clickable_image",
-      "filename": "2025/American-style_pool_table_diagram_(empty).png",
+      "filename": "2025/pool-table-clipart-lg.png",
       "clickRestriction": "one",
       "dimensions": "6 6",
       "allowableResponses": "1 7 13 19 25 31",
