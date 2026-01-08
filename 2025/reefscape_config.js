@@ -60,7 +60,7 @@ var config_data = `
       "type": "clickable_image",
       "filename": "2025/American-style_pool_table_diagram_(empty).png",
       "clickRestriction": "one",
-      "dimensions": "6 6",
+      "dimensions": "2 3",
       "allowableResponses": "1 7 13 19 25 31",
       "shape": "circle 5 black red true"
     }
