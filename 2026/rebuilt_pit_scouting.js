@@ -87,10 +87,10 @@ var config_data = `
       "code": "han",
       "type": "radio",
       "choices": {
-      "n": "Level 1<br>"
-      "f": "Level 2<br>"
-      "c": "Level 3<br>"
-      "x": "N/A<br>"
+        "n": "Level 1<br>",
+        "f": "Level 2<br>",
+        "c": "Level 3<br>",
+        "x": "N/A<br>"
       },
       "defaultValue":"x"
     },
