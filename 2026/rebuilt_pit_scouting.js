@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2026",
-  "page_title": "REBUILT",
+  "page_title": "ONABOTS REBUILT",
   "pitConfig": "true",
   "prematch": [
     { "name": "Team Number",
@@ -82,6 +82,17 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 250
+      },
+      { "name": "Hanging",
+      "code": "han",
+      "type": "radio",
+      "choices": {
+      "n": "Level 1<br>"
+      "f": "Level 2<br>"
+      "c": "Level 3<br>"
+      "x": "N/A<br>"
+      },
+      "defaultValue":"x"
     },
     { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
       "code": "sct",
