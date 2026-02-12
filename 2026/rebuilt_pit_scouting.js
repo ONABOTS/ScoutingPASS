@@ -9,6 +9,11 @@ var config_data = `
       "code": "t",
       "type": "number"
     },
+    { "name": "Height",
+      "code": "hei",
+      "type": "number",
+      "defaultValue": "0"
+    },
     { "name": "Width",
       "code": "wid",
       "type": "number",
@@ -82,8 +87,8 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 250
-      },
-      { "name": "Hanging",
+   },
+   { "name": "Hanging",
         "code": "han",
         "type": "radio",
         "choices": {
@@ -91,8 +96,17 @@ var config_data = `
           "f": "Level 2<br>",
           "c": "Level 3<br>",
           "x": "N/A<br>"
-      },
+  
+   },
       "defaultValue":"x"
+    },
+    { "name": "Score Cycle Time",
+      "code": "sct",
+      "type": "number",
+     },
+    { "name": "Hopper Capacity",
+      "code": "hoc",
+      "type": "number",
     },
     { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
       "code": "sct",
@@ -105,8 +119,7 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 250
-    }
-  ],
+ ],
   "auton": [
   ],
   "teleop": [
