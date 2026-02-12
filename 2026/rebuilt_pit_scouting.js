@@ -96,7 +96,6 @@ var config_data = `
           "f": "Level 2<br>",
           "c": "Level 3<br>",
           "x": "N/A<br>"
-  
    },
       "defaultValue":"x"
     },
