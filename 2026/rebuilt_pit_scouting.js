@@ -105,7 +105,7 @@ var config_data = `
      },
     { "name": "Hopper Capacity",
       "code": "hoc",
-      "type": "number",
+      "type": "number"
     },
     { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
       "code": "sct",
