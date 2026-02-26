@@ -101,7 +101,8 @@ var config_data = `
     },
     { "name": "Score Cycle Time",
       "code": "sct",
-      "type": "number"
+      "type": "number",
+      "defaultValue": "0"
      },
     { "name": "Hopper Capacity",
       "code": "hoc",
