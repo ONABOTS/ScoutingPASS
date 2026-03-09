@@ -136,6 +136,15 @@ var config_data = `
       "altInc2": 5,
       "type": "counter"
     },
+    {"name": "unloading speed",
+      "code": "pnz",
+      "type": "radio",
+      "choices": {
+        "1": "slow<br>",
+        "2": "average<br>",
+        "3": "fast<br>"
+        }
+    },
     {"name": "shooting",
       "code": "poa",
       "type": "radio",
