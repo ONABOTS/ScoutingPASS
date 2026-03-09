@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2026",
-  "page_title": "ONABOTS REBUILT",
+  "page_title": "GIANNA TEST",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
