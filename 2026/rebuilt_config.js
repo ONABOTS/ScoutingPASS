@@ -153,7 +153,7 @@ var config_data = `
       "code": "tfd",
       "type": "bool"
     },
-    { "name": "Pickup from Outpost",
+    { "name": "Feed the Outpost",
       "code": "tfo",
       "type": "bool"
     },
