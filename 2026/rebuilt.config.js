@@ -136,13 +136,16 @@ var config_data = `
       "altInc2": 5,
       "type": "counter"
     },
-    { "name": "Pass from Opp Alliance Zone",
+    {"name": "shooting",
       "code": "poa",
-      "expectedMax": 250,
-      "altInc1": 10,
-      "altInc2": 5,
-      "type": "counter"
-    },
+      "type": "radio",
+      "choices": {
+        "1": "few<br>",
+        "2": "average<br>",
+        "3": "plentiful<br>",
+        "a": "Attempted<br>",
+        "x": "Not Attempted"
+        },
     { "name": "Pickup from Depot",
       "code": "tfd",
       "type": "bool"
