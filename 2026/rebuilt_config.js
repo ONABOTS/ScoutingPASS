@@ -244,7 +244,7 @@ var config_data = `
     { "name": "accurate shooting",
       "code": "pct",
       "type": "bool"
-    },
+      },
     { "name": "Comments",
       "code": "co",
       "type": "text",
