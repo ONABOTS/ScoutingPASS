@@ -243,7 +243,7 @@ var config_data = `
     },
     { "name": "accurate shooting",
       "code": "pct",
-      "type": "bool",
+      "type": "bool"
     },
     { "name": "Comments",
       "code": "co",
