@@ -145,7 +145,8 @@ var config_data = `
         "3": "plentiful<br>",
         "a": "Attempted<br>",
         "x": "Not Attempted"
-        },
+        }
+    },
     { "name": "Pickup from Depot",
       "code": "tfd",
       "type": "bool"
