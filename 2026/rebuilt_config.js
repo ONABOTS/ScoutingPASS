@@ -55,6 +55,7 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
+  [
     { "name": "Fuel Scored",
       "code": "afs",
       "expectedMax": 32,
@@ -91,7 +92,7 @@ var config_data = `
       "code": "aff",
       "type": "bool"
     },
-    {, "name": "Fuel Scored",
+    { "name": "Fuel Scored",
       "code": "tfs",
       "expectedMax": 150,
       "altInc1": 10,
