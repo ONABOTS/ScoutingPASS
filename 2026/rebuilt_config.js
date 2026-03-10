@@ -90,7 +90,7 @@ var config_data = `
     { "name": "Pickup from Neutral Zone",
       "code": "aff",
       "type": "bool"
-    }
+    },
     { "name": "Fuel Scored",
       "code": "tfs",
       "expectedMax": 150,
@@ -131,7 +131,7 @@ var config_data = `
       "type": "bool"
     }
   ],
-  "endgame": [
+ "endgame": [
     { "name": "Climb",
       "code": "tc",
       "type": "radio",
