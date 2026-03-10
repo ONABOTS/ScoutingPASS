@@ -55,7 +55,8 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-  [
+    ]
+  ,"teleop": [
     { "name": "Fuel Scored",
       "code": "afs",
       "expectedMax": 32,
@@ -130,7 +131,7 @@ var config_data = `
     { "name": "Pickup from Floor",
       "code": "tff",
       "type": "bool"
-    }
+    },
   ],
  "endgame": [
     { "name": "Climb",
