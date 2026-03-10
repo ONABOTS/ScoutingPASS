@@ -91,7 +91,7 @@ var config_data = `
       "code": "aff",
       "type": "bool"
     },
-    { "name": "Fuel Scored",
+    {, "name": "Fuel Scored",
       "code": "tfs",
       "expectedMax": 150,
       "altInc1": 10,
