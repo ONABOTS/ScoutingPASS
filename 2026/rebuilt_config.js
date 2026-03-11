@@ -60,11 +60,11 @@ var config_data = `{
       "choices": {
         "t1": "trench 1<br>",
         "b1": "bump 1<br>",
-        "h": "hub<br>"
-        "b2": "bump 2<br>"
+        "h": "hub<br>",
+        "b2": "bump 2<br>",
         "t2": "trench 2<br>"
         }
-    },
+    }
     ],
   "teleop": [
     { "name": "Fuel Scored",
