@@ -58,21 +58,21 @@ var config_data = `
     ],
   "teleop": [
     { "name": "Fuel Scored",
-      "code": "afs",
+      "code": "as",
       "expectedMax": 32,
       "altInc1": 10,
       "altInc2": 5,
       "type": "counter"
     },
     { "name": "Pass from Neutral Zone",
-      "code": "apn",
+      "code": "asl",
       "expectedMax": 60,
       "altInc1": 10,
       "altInc2": 5,
       "type": "counter"
     },
     { "name": "Climb (L1)",
-      "code": "ac",
+      "code": "afs",
       "type": "radio",
       "choices": {
         "c": "Climbed<br>",
@@ -82,26 +82,26 @@ var config_data = `
       "defaultValue": "x"
     },
     { "name": "Pickup from Depot",
-      "code": "afd",
+      "code": "apn",
       "type": "bool"
     },
     { "name": "Pickup from Outpost",
-      "code": "afo",
+      "code": "ac",
       "type": "bool"
     },
     { "name": "Pickup from Neutral Zone",
-      "code": "aff",
+      "code": "afd",
       "type": "bool"
     },
     { "name": "Fuel Scored",
-      "code": "tfs",
+      "code": "afo",
       "expectedMax": 150,
       "altInc1": 10,
       "altInc2": 5,
       "type": "counter"
     },
     {"name": "unloading speed",
-      "code": "pnz",
+      "code": "aff",
       "type": "radio",
       "choices": {
         "1": "slow<br>",
@@ -110,7 +110,7 @@ var config_data = `
         }
     },
     {"name": "shooting",
-      "code": "poa",
+      "code": "tsl",
       "type": "radio",
       "choices": {
         "1": "few<br>",
@@ -121,21 +121,21 @@ var config_data = `
         }
     },
     { "name": "Pickup from Depot",
-      "code": "tfd",
+      "code": "tfs",
       "type": "bool"
     },
     { "name": "Feed the Outpost",
-      "code": "tfo",
+      "code": "pnz",
       "type": "bool"
     },
     { "name": "Pickup from Floor",
-      "code": "tff",
+      "code": "poa",
       "type": "bool"
     }
   ],
  "endgame": [
     { "name": "Climb",
-      "code": "tc",
+      "code": "tfd",
       "type": "radio",
       "choices": {
         "1": "Level 1<br>",
@@ -149,7 +149,7 @@ var config_data = `
   ],
   "postmatch": [
     { "name": "Driver Skill",
-      "code": "ds",
+      "code": "tfo",
       "type": "radio",
       "choices": {
         "n": "Not Effective<br>",
@@ -160,7 +160,7 @@ var config_data = `
       "defaultValue": "x"
     },
     { "name": "Defense Rating",
-      "code": "dr",
+      "code": "tff",
       "type": "radio",
       "choices": {
         "b": "Below Average<br>",
@@ -172,7 +172,7 @@ var config_data = `
       "defaultValue": "x"
     },
     { "name": "Speed Rating",
-      "code": "sr",
+      "code": "tc",
       "type": "radio",
       "choices": {
         "1": "1 (slow)<br>",
@@ -184,32 +184,32 @@ var config_data = `
       "defaultValue":"3"
     },
     { "name": "Crossed Bump",
-      "code": "bmp",
+      "code": "ds",
       "type": "bool"
     },
     { "name": "Died/Immobilized",
-      "code": "die",
+      "code": "dr",
       "type": "bool"
     },
     { "name": "Tippy<br>(almost tipped over)",
-      "code": "tip",
+      "code": "sr",
       "type": "bool"
     },
     { "name": "Make good<br>alliance partner?",
       "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "all",
+      "code": "bmp",
       "type": "bool"
     },
     { "name": "Was Defended",
-      "code": "def",
+      "code": "tre",
       "type": "bool"
     },
     { "name": "accurate shooting",
-      "code": "pct",
+      "code": "die",
       "type": "bool"
       },
     { "name": "Comments",
-      "code": "co",
+      "code": "tip",
       "type": "text",
       "size": 15,
       "maxSize": 250
