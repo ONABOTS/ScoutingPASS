@@ -53,25 +53,36 @@ var config_data = `{
       "type": "team",
       "min": 1,
       "max": 99999
-    }
+    },
+    {"name": "auton starting position",
+      "code": "as",
+      "type": "radio",
+      "choices": {
+        "t1": "trench 1<br>",
+        "b1": "bump 1<br>",
+        "h": "hub<br>"
+        "b2": "bump 2<br>"
+        "t2": "trench 2<br>"
+        }
+    },
     ],
   "teleop": [
     { "name": "Fuel Scored",
-      "code": "as",
+      "code": "asl",
       "expectedMax": 32,
       "altInc1": 10,
       "altInc2": 5,
       "type": "counter"
     },
     { "name": "Pass from Neutral Zone",
-      "code": "asl",
+      "code": "afs",
       "expectedMax": 60,
       "altInc1": 10,
       "altInc2": 5,
       "type": "counter"
     },
     { "name": "Climb (L1)",
-      "code": "afs",
+      "code": "apn",
       "type": "radio",
       "choices": {
         "c": "Climbed<br>",
@@ -81,26 +92,26 @@ var config_data = `{
       "defaultValue": "x"
     },
     { "name": "Pickup from Depot",
-      "code": "apn",
-      "type": "bool"
-    },
-    { "name": "Pickup from Outpost",
       "code": "ac",
       "type": "bool"
     },
-    { "name": "Pickup from Neutral Zone",
+    { "name": "Pickup from Outpost",
       "code": "afd",
       "type": "bool"
     },
-    { "name": "Fuel Scored",
+    { "name": "Pickup from Neutral Zone",
       "code": "afo",
+      "type": "bool"
+    },
+    { "name": "Fuel Scored",
+      "code": "aff",
       "expectedMax": 150,
       "altInc1": 10,
       "altInc2": 5,
       "type": "counter"
     },
     {"name": "unloading speed",
-      "code": "aff",
+      "code": "tsl",
       "type": "radio",
       "choices": {
         "1": "slow<br>",
@@ -109,7 +120,7 @@ var config_data = `{
         }
     },
     {"name": "shooting",
-      "code": "tsl",
+      "code": "tfs",
       "type": "radio",
       "choices": {
         "1": "few<br>",
@@ -120,21 +131,21 @@ var config_data = `{
         }
     },
     { "name": "Pickup from Depot",
-      "code": "tfs",
-      "type": "bool"
-    },
-    { "name": "Feed the Outpost",
       "code": "pnz",
       "type": "bool"
     },
-    { "name": "Pickup from Floor",
+    { "name": "Feed the Outpost",
       "code": "poa",
+      "type": "bool"
+    },
+    { "name": "Pickup from Floor",
+      "code": "tfd",
       "type": "bool"
     }
   ],
  "endgame": [
     { "name": "Climb",
-      "code": "tfd",
+      "code": "tfo",
       "type": "radio",
       "choices": {
         "1": "Level 1<br>",
@@ -148,7 +159,7 @@ var config_data = `{
   ],
   "postmatch": [
     { "name": "Driver Skill",
-      "code": "tfo",
+      "code": "tff",
       "type": "radio",
       "choices": {
         "n": "Not Effective<br>",
@@ -159,7 +170,7 @@ var config_data = `{
       "defaultValue": "x"
     },
     { "name": "Defense Rating",
-      "code": "tff",
+      "code": "tc",
       "type": "radio",
       "choices": {
         "b": "Below Average<br>",
@@ -171,7 +182,7 @@ var config_data = `{
       "defaultValue": "x"
     },
     { "name": "Speed Rating",
-      "code": "tc",
+      "code": "ds",
       "type": "radio",
       "choices": {
         "1": "1 (slow)<br>",
@@ -183,32 +194,32 @@ var config_data = `{
       "defaultValue":"3"
     },
     { "name": "Crossed Bump",
-      "code": "ds",
-      "type": "bool"
-    },
-    { "name": "Died/Immobilized",
       "code": "dr",
       "type": "bool"
     },
-    { "name": "Tippy<br>(almost tipped over)",
+    { "name": "Died/Immobilized",
       "code": "sr",
+      "type": "bool"
+    },
+    { "name": "Tippy<br>(almost tipped over)",
+      "code": "bmp",
       "type": "bool"
     },
     { "name": "Make good<br>alliance partner?",
       "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "bmp",
-      "type": "bool"
-    },
-    { "name": "Was Defended",
       "code": "tre",
       "type": "bool"
     },
-    { "name": "accurate shooting",
+    { "name": "Was Defended",
       "code": "die",
+      "type": "bool"
+    },
+    { "name": "accurate shooting",
+      "code": "tip",
       "type": "bool"
       },
     { "name": "Comments",
-      "code": "tip",
+      "code": "co",
       "type": "text",
       "size": 15,
       "maxSize": 250
