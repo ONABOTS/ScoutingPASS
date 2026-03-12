@@ -207,7 +207,7 @@ var config_data = `
     },
     { "name": "Died/Immobilized",
       "code": "sr",
-      "type": "radio"
+      "type": "radio",
        "choices": {
        "D": "Yes<br>",
        "x": "No<br>"
@@ -216,7 +216,7 @@ var config_data = `
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "bmp",
-      "type": "radio"
+      "type": "radio",
        "choices": {
        "T": "Yes<br>",
        "x": "No<br>"
@@ -226,7 +226,7 @@ var config_data = `
     { "name": "Make good<br>alliance partner?",
       "tooltip": "Would you want this robot on your alliance in eliminations?",
       "code": "tre",
-      "type": "radio"
+      "type": "radio",
        "choices": {
        "A": "Yes<br>",
        "x": "No<br>"
@@ -235,7 +235,7 @@ var config_data = `
     },
     { "name": "Was Defended",
       "code": "die",
-      "type": "radio"
+      "type": "radio",
        "choices": {
        "DEF": "Yes<br>",
        "x": "No<br>"
@@ -244,7 +244,7 @@ var config_data = `
     },
     { "name": "Accurate Shooting",
       "code": "tip",
-      "type": "radio"
+      "type": "radio",
        "choices": {
        "ACC": "Yes<br>",
        "x": "No<br>"
