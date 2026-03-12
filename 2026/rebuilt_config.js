@@ -68,7 +68,7 @@ var config_data = `
     }
     ],
   "auton": [
-  { "name": "Fuel Scored",
+  { "name": "Auton Scored",
       "code": "asl",
       "expectedMax": 32,
       "altInc1": 10,
