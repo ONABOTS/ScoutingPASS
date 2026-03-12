@@ -67,7 +67,15 @@ var config_data = `
         }
     }
     ],
-  "auton": [],  
+  "auton": [
+  { "name": "Fuel Scored",
+      "code": "asl",
+      "expectedMax": 32,
+      "altInc1": 10,
+      "altInc2": 5,
+      "type": "counter"
+    }
+    ],  
   "teleop": [
     { "name": "Fuel Scored",
       "code": "asl",
