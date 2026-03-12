@@ -67,6 +67,7 @@ var config_data = `
         }
     }
     ],
+  "auton": [],  
   "teleop": [
     { "name": "Fuel Scored",
       "code": "asl",
