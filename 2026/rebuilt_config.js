@@ -198,28 +198,58 @@ var config_data = `
     },
     { "name": "Crossed Bump",
       "code": "dr",
-      "type": "bool"
+      "type": "radio",
+      "choices": {
+       "B": "Yes<br>",
+       "x": "No<br>"
+       },
+       "defaultValue":"x"
     },
     { "name": "Died/Immobilized",
       "code": "sr",
-      "type": "bool"
+      "type": "radio"
+       "choices": {
+       "D": "Yes<br>",
+       "x": "No<br>"
+       },
+       "defaultValue":"x"
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "bmp",
-      "type": "bool"
+      "type": "radio"
+       "choices": {
+       "T": "Yes<br>",
+       "x": "No<br>"
+       },
+       "defaultValue":"x"
     },
     { "name": "Make good<br>alliance partner?",
       "tooltip": "Would you want this robot on your alliance in eliminations?",
       "code": "tre",
-      "type": "bool"
+      "type": "radio"
+       "choices": {
+       "A": "Yes<br>",
+       "x": "No<br>"
+       },
+       "defaultValue":"x"
     },
     { "name": "Was Defended",
       "code": "die",
-      "type": "bool"
+      "type": "radio"
+       "choices": {
+       "DEF": "Yes<br>",
+       "x": "No<br>"
+       },
+       "defaultValue":"x"
     },
     { "name": "Accurate Shooting",
       "code": "tip",
-      "type": "bool"
+      "type": "radio"
+       "choices": {
+       "ACC": "Yes<br>",
+       "x": "No<br>"
+       },
+       "defaultValue":"x"
       },
     { "name": "Comments",
       "code": "co",
