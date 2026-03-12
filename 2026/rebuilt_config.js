@@ -55,29 +55,20 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-    {"name": "auton starting position",
+    {"name": "Starting Position",
       "code": "as",
       "type": "radio",
       "choices": {
-        "t1": "trench 1<br>",
-        "b1": "bump 1<br>",
-        "h": "hub<br>",
-        "b2": "bump 2<br>",
-        "t2": "trench 2<br>"
+        "t1": "Trench 1<br>",
+        "b1": "Bump 1<br>",
+        "h": "Hub<br>",
+        "b2": "Bump 2<br>",
+        "t2": "Trench 2<br>"
         }
     }
     ],
   "auton": [
-  { "name": "Auton Scored",
-      "code": "asl",
-      "expectedMax": 32,
-      "altInc1": 10,
-      "altInc2": 5,
-      "type": "counter"
-    }
-    ],  
-  "teleop": [
-    { "name": "Fuel Scored",
+      { "name": "Fuel Scored",
       "code": "asl",
       "expectedMax": 32,
       "altInc1": 10,
@@ -112,7 +103,9 @@ var config_data = `
     { "name": "Pickup from Neutral Zone",
       "code": "afo",
       "type": "bool"
-    },
+    }
+    ],  
+  "teleop": [
     { "name": "Fuel Scored",
       "code": "aff",
       "expectedMax": 150,
@@ -120,22 +113,22 @@ var config_data = `
       "altInc2": 5,
       "type": "counter"
     },
-    {"name": "unloading speed",
+    {"name": "Unloading Speed",
       "code": "tsl",
       "type": "radio",
       "choices": {
-        "1": "slow<br>",
-        "2": "average<br>",
-        "3": "fast<br>"
+        "1": "Slow<br>",
+        "2": "Average<br>",
+        "3": "Fast<br>"
         }
     },
-    {"name": "shooting",
+    {"name": "Shooting",
       "code": "tfs",
       "type": "radio",
       "choices": {
-        "1": "few<br>",
-        "2": "average<br>",
-        "3": "plentiful<br>",
+        "1": "Few<br>",
+        "2": "Average<br>",
+        "3": "Plentiful<br>",
         "a": "Attempted<br>",
         "x": "Not Attempted"
         }
@@ -224,7 +217,7 @@ var config_data = `
       "code": "die",
       "type": "bool"
     },
-    { "name": "accurate shooting",
+    { "name": "Accurate Shooting",
       "code": "tip",
       "type": "bool"
       },
