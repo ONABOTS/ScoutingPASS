@@ -5,7 +5,7 @@ var config_data = `
   "page_title": "GIANNA TEST",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials",
+    { "name": "Scouter Initials", 
       "code": "s",
       "type": "scouter",
       "size": 5,
