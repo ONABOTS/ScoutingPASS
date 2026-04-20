@@ -64,13 +64,6 @@ var config_data = `
       "altInc2": 5,
       "type": "counter"
     },
-    { "name": "Pass from Neutral Zone",
-      "code": "apn",
-      "expectedMax": 60,
-      "altInc1": 10,
-      "altInc2": 5,
-      "type": "counter"
-    },
     { "name": "Climb (L1)",
       "code": "ac",
       "type": "radio",
@@ -94,11 +87,13 @@ var config_data = `
       "type": "bool"
     }
   ],
-  "teleop": [
-    
-    { "name": "Pickup from Depot",
-      "code": "tfd",
-      "type": "bool"
+  "teleop": [  
+    { "name": "Fuel Scored",
+      "code": "tfs",
+      "expectedMax": 32,
+      "altInc1": 10,
+      "altInc2": 5,
+      "type": "counter"
     },
     { "name": "Pickup from Outpost",
       "code": "tfo",
