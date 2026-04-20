@@ -86,22 +86,66 @@ var config_data = `
       "code": "aff",
       "type": "bool"
     }
+    { "name": "Auton Accuracy",
+      "code": "aac",
+      "type": "radio",
+      "choice": {
+      "n": "Not Accurate",
+      "av": "Average",
+      "a": "Accurate",
+      "x": "Not Observed"
+      },
+      "defaultValue": "x"
+    }
   ],
   "teleop": [  
-    { "name": "Fuel Scored",
-      "code": "tfs",
-      "expectedMax": 32,
-      "altInc1": 10,
-      "altInc2": 5,
-      "type": "counter"
+    {"name": "Cycle Time",
+      "code": "tct",
+      "type": "timer"
     },
-    { "name": "Pickup from Outpost",
-      "code": "tfo",
-      "type": "bool"
-    },
-    { "name": "Pickup from Floor",
-      "code": "tff",
-      "type": "bool"
+    { "name": "Cycle Accuracy",
+      "code": "tca",
+      "type": "radio",
+      "choices": {
+        "1": "Few",
+        "2": "Average",
+        "3": "Plentiful",
+        "x": "Not Attempted"
+        },
+        "defaultValue": "x",
+      },
+      { "name": "Teleop Amount Shot",
+        "code": "tas",
+        "type": "radio",
+        "choices": {
+        "f": "Few",
+        "a": "Average",
+        "p": "Plentiful",
+        "x": "Not Observed"
+        },
+        "defaultValue": "x"
+        }
+      { "name": "Teleop Shooting Speed"
+        "code": "tss",
+        "type": "radio",
+        "choices": {
+        "s": "Slow",
+        "a": "Average",
+        "f": "Fast",
+        "x": "Not Observed",
+        }
+        "defaultValue": "x"
+      }
+       { "name": "Teleop Accuracy",
+      "code": "tac",
+      "type": "radio",
+      "choice": {
+      "n": "Not Accurate",
+      "av": "Average",
+      "a": "Accurate",
+      "x": "Not Observed"
+      },
+      "defaultValue": "x"
     }
   ],
   "endgame": [
@@ -119,7 +163,7 @@ var config_data = `
     },
       { "name": "Climbing Speed",
         "code": "csp",
-        "type": "timer",
+        "type": "timer"
     },
   ],
   "postmatch": [
@@ -158,10 +202,6 @@ var config_data = `
       },
       "defaultValue":"3"
     },
-    { "name": "Crossed Bump",
-      "code": "bmp",
-      "type": "bool"
-    },
     { "name": "Crossed Trench",
       "code": "tre",
       "type": "bool"
@@ -186,13 +226,6 @@ var config_data = `
     { "name": "Excessive Penalties",
       "code": "pen",
       "type": "bool"
-    },
-    { "name": "Fuel Percentage",
-      "tooltip": "What percentage of the total fuel for this alliance did this robot score?",
-      "code": "pct",
-      "type": "number",
-      "min": 0,
-      "max": 100
     },
     { "name": "Comments",
       "code": "co",
