@@ -85,7 +85,7 @@ var config_data = `
     { "name": "Pickup from Neutral Zone",
       "code": "aff",
       "type": "bool"
-    }
+    },
     { "name": "Auton Accuracy",
       "code": "aac",
       "type": "radio",
@@ -124,8 +124,8 @@ var config_data = `
         "x": "Not Observed"
         },
         "defaultValue": "x"
-        }
-      { "name": "Teleop Shooting Speed"
+        },
+      { "name": "Teleop Shooting Speed",
         "code": "tss",
         "type": "radio",
         "choices": {
@@ -135,7 +135,7 @@ var config_data = `
         "x": "Not Observed",
         }
         "defaultValue": "x"
-      }
+      },
        { "name": "Teleop Accuracy",
       "code": "tac",
       "type": "radio",
@@ -164,7 +164,7 @@ var config_data = `
       { "name": "Climbing Speed",
         "code": "csp",
         "type": "timer"
-    },
+    }
   ],
   "postmatch": [
     { "name": "Driver Skill",
