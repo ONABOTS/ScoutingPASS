@@ -132,7 +132,7 @@ var config_data = `
         "s": "Slow",
         "a": "Average",
         "f": "Fast",
-        "x": "Not Observed",
+        "x": "Not Observed"
         },
         "defaultValue": "x"
       },
