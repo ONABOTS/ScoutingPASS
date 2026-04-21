@@ -133,7 +133,7 @@ var config_data = `
         "a": "Average",
         "f": "Fast",
         "x": "Not Observed",
-        },
+        }
         "defaultValue": "x"
       },
        { "name": "Teleop Accuracy",
