@@ -112,7 +112,7 @@ var config_data = `
         "3": "Plentiful",
         "x": "Not Attempted"
         },
-        "defaultValue": "x",
+        "defaultValue": "x"
       },
       { "name": "Teleop Amount Shot",
         "code": "tas",
