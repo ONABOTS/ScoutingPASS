@@ -99,21 +99,6 @@ var config_data = `
     }
   ],
   "teleop": [  
-    { "name": "Cycle Accuracy",
-      "code": "tca",
-      "type": "radio",
-      "choices": {
-        "1": "Few",
-        "2": "Average",
-        "3": "Plentiful",
-        "x": "Not Attempted"
-        },
-        "defaultValue": "x"
-      },
-   {"name": "Cycle Time",
-      "code": "tct",
-      "type": "timer"
-    },
       { "name": "Teleop Amount Shot",
         "code": "tas",
         "type": "radio",
@@ -147,6 +132,21 @@ var config_data = `
       },
       "defaultValue": "x"
     }
+     { "name": "Cycle Accuracy",
+      "code": "tca",
+      "type": "radio",
+      "choices": {
+        "1": "Few",
+        "2": "Average",
+        "3": "Plentiful",
+        "x": "Not Attempted"
+        },
+        "defaultValue": "x"
+    },
+   {"name": "Cycle Time",
+      "code": "tct",
+      "type": "timer"
+    },
   ],
   "endgame": [
     { "name": "Climb",
