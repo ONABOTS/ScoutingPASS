@@ -64,9 +64,9 @@ var config_data = `
       "h": "Hub",
       "b2": "Bump 2",
       "t2": "Trench 2"
-      }
+      },
       "defaultValue": "h"
-   },
+   }
   ],
   "auton": [
     { "name": "Fuel Scored",
@@ -143,7 +143,7 @@ var config_data = `
       "x": "Not Observed"
       },
       "defaultValue": "x"
-    }
+    },
      { "name": "Cycle Accuracy",
       "code": "tca",
       "type": "radio",
@@ -158,7 +158,7 @@ var config_data = `
    {"name": "Cycle Time",
       "code": "tct",
       "type": "timer"
-    },
+    }
   ],
   "endgame": [
     { "name": "Climb",
