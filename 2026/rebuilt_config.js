@@ -66,7 +66,7 @@ var config_data = `
       "t2": "Trench 2"
       }
       "defaultValue": "h"
-   }
+   },
   ],
   "auton": [
     { "name": "Fuel Scored",
