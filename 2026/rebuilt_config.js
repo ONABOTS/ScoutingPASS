@@ -102,9 +102,9 @@ var config_data = `
       "code": "aac",
       "type": "radio",
       "choice": {
-      "n": "Not Accurate",
-      "av": "Average",
-      "a": "Accurate",
+      "an": "Not Accurate",
+      "aav": "Average",
+      "aa": "Accurate",
       "x": "Not Observed"
       },
       "defaultValue": "x"
