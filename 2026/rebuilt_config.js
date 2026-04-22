@@ -55,6 +55,18 @@ var config_data = `
       "min": 1,
       "max": 99999
     }
+    { "name": "Starting Position",
+      "code": "sp",
+      "type": "radio",
+      "choices": {
+      "t1": "Trench 1",
+      "b1": "Bump 1",
+      "h": "Hub",
+      "b2": "Bump 2",
+      "t2": "Trench 2"
+      }
+      "defaultValue": "h"
+   }
   ],
   "auton": [
     { "name": "Fuel Scored",
@@ -122,7 +134,7 @@ var config_data = `
         "defaultValue": "x"
       },
        { "name": "Teleop Accuracy",
-      "code": "tac",
+      "code": "tcc",
       "type": "radio",
       "choice": {
       "n": "Not Accurate",
