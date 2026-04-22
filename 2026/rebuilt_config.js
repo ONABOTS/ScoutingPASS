@@ -99,10 +99,6 @@ var config_data = `
     }
   ],
   "teleop": [  
-    {"name": "Cycle Time",
-      "code": "tct",
-      "type": "timer"
-    },
     { "name": "Cycle Accuracy",
       "code": "tca",
       "type": "radio",
@@ -114,6 +110,10 @@ var config_data = `
         },
         "defaultValue": "x"
       },
+   {"name": "Cycle Time",
+      "code": "tct",
+      "type": "timer"
+    },
       { "name": "Teleop Amount Shot",
         "code": "tas",
         "type": "radio",
